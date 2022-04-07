@@ -48,7 +48,7 @@ def get_real_position(in_list,seq):
 
 
 aln = AlignIO.read("22cp_mafft.fa","fasta")
-out_stats = open("23cp_win_diversity.txt","w")
+out_stats = open("22cp_win_diversity.txt","w")
 out_stats.write("win_start\tlength\tnum_snp\tnum_missing\ttheta\tpi\n")
 aln_length = len(aln[0].seq)
 
