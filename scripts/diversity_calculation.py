@@ -64,6 +64,6 @@ for i in range(0,aln_length,200):
     try:
         out_stats.write(str(win_start) + "\t" + "\t".join(map(lambda x: str(x), diversity_calc(win_aln))) + '\n')
     except:
-        out_stats.write(str(win_start) + "\t" + '600\t0\t600\t0\t0\n')
+        out_stats.write(str(win_start) + "\t" + '600\t0\t600\t0\t0\t0\n')
 
 out_stats.close()
